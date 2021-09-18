@@ -1,0 +1,6 @@
+matrix  PANC1	10000	/absolute/path/of/matrix.list
+matrix	HPDE6C7	10000	/absolute/path/of/matrix.list
+delta PANC1,HPDE6C7 10000 /absolute/path/of/matrix.list
+4C	5000	BxPC3,PANC1,HPDE6C7	#F7CF7F,#9AD8F7,#F7B5B8	/absolute/path/of/matrix_oe.list	6
+bedgraph	PANC1	#86BBD3	/absolute/path/of/Panc_H3K27ac_rep_1.bed	2 0
+gtf	/absolute/path/of/hg19_refGene.sort.gtf
