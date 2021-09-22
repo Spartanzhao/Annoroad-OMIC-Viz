@@ -53,13 +53,13 @@ There are five columns in the data:(1) chromosome,(2) position of left end of th
 {2} there are three columns:(1) start position of bin,(2) start position of another bin,(3) reads which support these two bins interact with each other(observed) divide the expected reads which support two bins interaction(expected). (observed/expected matrix can be yield by HiCCUPs)
 
 How to run Annoroad Browser?
-python3.6 bin/Annoroad_Lego_Browser.py -fl show.list  -o MLLT3_4C.png -chr chr9 -st 20620542  -ed 20625542  -b1 1000000 -b2 15000000
--fl: show list file which give the information that you want to show, as described above.
--o: output file 
--chr: which chromosome we want to show
--st: start site we want to show.
--ed: end site we want to show.
--b1: left extension, 
+python3.6 bin/Annoroad_Lego_Browser.py -fl show.list  -o MLLT3_4C.png -chr chr9 -st 20620542  -ed 20625542  -b1 1000000 -b2 15000000 \n
+-fl: show list file which give the information that you want to show, as described above. \n
+-o: output file  \n
+-chr: which chromosome we want to show \n
+-st: start site we want to show. \n
+-ed: end site we want to show. \n
+-b1: left extension,  \n
 -b2: right extension, if st is 3000000 ed is 5000000, b1 is 1000000,b2 is 1500000 then we will show the area of from 2000000bp to 6500000bp of this chromosome.
 
 
