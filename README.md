@@ -30,6 +30,7 @@ Data that Annoroad Browser can show:
 10.Signal compare
 
 We need a config file to tell Annoroad Browser what to show. Each row is the track we want to add, different columns was separated by tab. If we want to draw:
+
 1.Contact matrix:
 The first columns we should write ‘matrix’ which means we want to draw contact matrix. Second column is  sample’s name. Third columns is matrix resolution we are going to draw. Fourth columns is matrix list file[1]
 
