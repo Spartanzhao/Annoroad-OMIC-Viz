@@ -8,16 +8,18 @@ tags:
 - visualization
 authors:
 - name: Zhao Yue^[co-first author] 
-    orcid: 0000-0001-5293-820X
-    affiliation: 1
+  orcid: 0000-0001-5293-820X
+  affiliation: 1
 - name: Yuan Zan^[co-first author] # note this makes a footnote saying 'co-first author'
-    affiliation: 1
+  affiliation: 1
+bibliography: paper.bib 
+date: 18 October 2021
 affiliations:
 - name: Zhao Yue, Senior bioinformatic engineer , Beijing Annoroad Genomics
-   index: 1
+  index: 1
 ---
-date: 18 October 2021
-bibliography: paper.bib
+
+
 
 # Summary
 Different types of high throughput sequencing such as Hi-C, ChIP-seq, ATAC-seq, Cut&Tag, transcriptome, BS-seq, WGS have revolutionized multi-omic science. In turn, these technologies also generated some challenges, such as how to deal with a large amount of data and how to do the integration analysis of different omics data, and after all, find the correlation between different omic data. Big data visualization thus is very important for researchers to discover useful clues. However, drawing a multi-omic track plot that reaches the demand for publication requirement is a big challenge. Thus, we developed Annoroad Browser, a command line based tool to solve this issue. Annoroad Browser is a powerful and flexible tool that perfectly meets the demand of researchers who wants to do integration, visualization, and analysis of epigenetic,3D genomic, methylome WGS and transcriptome data. Besides, our tools can easily combine different tracks in any order according to user needs and generate a vector graph that fits the requirement for publication. Moreover, the picture we generated is highly reproducible. Except for heat map, all the other data tracks can change the color. Users don’t need to install our package. It only needs python3.6 or above. Besides, the required packages are pandas, numpy, scipy and matplotlib. 
