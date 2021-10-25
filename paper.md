@@ -7,10 +7,10 @@ tags:
 - Hi-C
 - visualization
 authors:
-- name: Zhao Yue^[co-first author] 
+- name: Zhao Yue [co-first author] 
   orcid: 0000-0001-5293-820X
   affiliation: 1
-- name: Yuan Zan^[co-first author] # note this makes a footnote saying 'co-first author'
+- name: Yuan Zan [co-first author] 
   affiliation: 1
 bibliography: paper.bib 
 date: 18 October 2021
