@@ -1,21 +1,21 @@
 ---
 title: 'Annoroad Browser: A biological multi-omic visualization tool'
 tags:
-  - Python
-  - bioinformatics
-  - multi omic
-  - Hi-C
-  - visualization
+- Python
+- bioinformatics
+- multi omic
+- Hi-C
+- visualization
 authors:
-  - name: Zhao Yue^[co-first author] 
+- name: Zhao Yue^[co-first author] 
     orcid: 0000-0001-5293-820X
     affiliation: 1
-  - name: Yuan Zan^[co-first author] # note this makes a footnote saying 'co-first author'
+- name: Yuan Zan^[co-first author] # note this makes a footnote saying 'co-first author'
     affiliation: 1
 affiliations:
- - name: Zhao Yue, Senior bioinformatic engineer , Beijing Annoroad Genomics
+- name: Zhao Yue, Senior bioinformatic engineer , Beijing Annoroad Genomics
    index: 1
-
+---
 date: 18 October 2021
 bibliography: paper.bib
 
