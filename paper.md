@@ -27,3 +27,35 @@ Among 3D genomics, there are different kinds of data we can perform such as cont
 
 # Statement of need
  Annoroad Browser is a python3 based tool. It can perform multi-omic visualization.  It can display, Hi-C heatmaps. delta-HiC of two samples, loops, AB compartment, TAD boundary, structure variation, epigenomic data, gene track, gene expression and log2 fold change of two samples. Besides, users can also flexibly determine the display sequence of their omic data. 
+
+# Features
+Data that Annoroad Browser can show:
+
+- 'Contact matrix'
+
+- 'Zscore Delta Matrix'
+
+- 'Gene track'
+
+- 'Bedgraph' (Epigenomic data or trancriptome data)
+
+- 'Loop'
+
+- 'TAD boundary'
+
+- 'Structure Variation'
+
+- 'A/B compartment'
+
+- '4C show'
+
+- 'Signal compare'
+
+
+
+
+
+# Acknowledgements
+I want to Acknowledge my colleagues in Annoroad Genomics, Fan Xuning helped me to improve the speed of heatmap drawing, Yuan Zan made my heatmap's color scheme more beautiful than before. I also want appreciate the dedicated people of these python packages which include pandas, matplotlib, numpy, scipy.
+
+# References
