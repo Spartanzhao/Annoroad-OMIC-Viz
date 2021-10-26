@@ -31,29 +31,27 @@ Among 3D genomics, there are different kinds of data we can perform such as cont
 # Features
 Data that Annoroad Browser can show:
 
-- `Contact matrix`
+- `Contact matrix` : 3D genome, especially Hi-C data is a N by N matrix, this matrix can be raw matrix or ice normalized matrix
 
-- `Zscore Delta Matrix`
+- `Zscore Delta Matrix` : Some times we want to compare the difference of two matrix, this funciont can first do the zscore of two matrices and then do the subtraction
 
-- `Gene track`
+- `Gene track`: This function can draw the genes on its location of the chromosome which include their exons and introns
 
-- `Bedgraph` (Epigenomic data or trancriptome data)
+- `Bedgraph` : (Epigenomic data or transcriptome data) epigenome or transcriptome data can be displayed by this function
 
-- `Loop`
+- `Loop`: many softwares such as HiCCUPs can find out the loop from chromomse interaction matrix. We can show the loops on the chromosome.
 
-- `TAD boundary`
+- `TAD boundary`: chromsome was composed by many different TADs(topological associated domain), thus we want to use this function to perform the TAD boundary
 
-- `Structure Variation`
+- `Structure Variation`: structurue variation include deletion, duplication, inservion, inversion. Sometimes structure variation can trigger the 3D alteration of chromosome. This function can show each type's structure varation's postion and thus, we can find relationship between 3D structure and structure variation.
 
-- `A/B compartment`
+- `A/B compartment`: A/B compartment is a very import concept of 3D genome. Chromosme usually have two different kinds of compartment, A compartment usually have higher gene expresion level. B compartment have lower gene expression level.
 
-- `4C show`
+- `4C show`: 4C means one to many. If you only interest in one postion and want to know how this position interact with other areas, then you can use this function to find out.
 
-- `Signal compare`
+- `Signal compare`: calculate the log2 fold change of two sample's epigenome data or transcriptome data.
 
-
-
-
+Annoroad Browser can display different omic data in one picture, thus we can easier to figure out the association between different omic data. Detailed instructions can found in https://github.com/Spartanzhao/Annoroad-Browser/.
 
 # Acknowledgements
 I want to Acknowledge my colleagues in Annoroad Genomics, Fan Xuning helped me to improve the speed of heatmap drawing, Yuan Zan made my heatmap's color scheme more beautiful than before. I also want appreciate the dedicated people of these python packages which include pandas, matplotlib, numpy, scipy.
