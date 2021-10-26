@@ -31,25 +31,25 @@ Among 3D genomics, there are different kinds of data we can perform such as cont
 # Features
 Data that Annoroad Browser can show:
 
-- 'Contact matrix'
+- `Contact matrix`
 
-- 'Zscore Delta Matrix'
+- `Zscore Delta Matrix`
 
-- 'Gene track'
+- `Gene track`
 
-- 'Bedgraph' (Epigenomic data or trancriptome data)
+- `Bedgraph` (Epigenomic data or trancriptome data)
 
-- 'Loop'
+- `Loop`
 
-- 'TAD boundary'
+- `TAD boundary`
 
-- 'Structure Variation'
+- `Structure Variation`
 
-- 'A/B compartment'
+- `A/B compartment`
 
-- '4C show'
+- `4C show`
 
-- 'Signal compare'
+- `Signal compare`
 
 
 
