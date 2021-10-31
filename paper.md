@@ -56,7 +56,12 @@ Annoroad Browser can display different omic data in one picture, thus we can eas
 <p align="left">
 <img src="./result/BxPC3.AB.png?raw=true" width="300" height="800">
 </p>
-
+<p align="center">
+<img src="./result/BxPC3.AB.png?raw=true" width="300" height="800">
+</p>
+<p align="right">
+<img src="./result/BxPC3.AB.png?raw=true" width="300" height="800">
+</p>
 
 # Acknowledgements
 I want to Acknowledge my colleagues in Annoroad Genomics, Fan Xuning helped me to improve the speed of heatmap drawing, Yuan Zan made my heatmap's color scheme more beautiful than before. I also want appreciate the dedicated people of these python packages which include pandas, matplotlib, numpy, scipy.
