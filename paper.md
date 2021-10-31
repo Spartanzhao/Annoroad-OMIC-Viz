@@ -54,7 +54,7 @@ Data that Annoroad Browser can show:
 Annoroad Browser can display different omic data in one picture, thus we can easier to figure out the association between different omic data. Detailed instructions can found in https://github.com/Spartanzhao/Annoroad-Browser/.
 
 <p align="left">
-<img src="./result/BxPC3.AB.png?raw=true" width="300" height="800">,<img src="./result/BxPC3.AB.png?raw=true" width="300" height="800">,<img src="./result/BxPC3.AB.png?raw=true" width="300" height="800">
+<img src="./result/MIR31HG_2.png?raw=true" width="300" height="800">,<img src="./result/BxPC3.SV.png?raw=true" width="300" height="800">,<img src="./result/BxPC3.diff_gene.png?raw=true" width="300" height="800">
 </p>
 
 # Acknowledgements
