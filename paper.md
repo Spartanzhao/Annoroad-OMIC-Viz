@@ -53,9 +53,7 @@ Data that Annoroad Browser can show:
 
 Annoroad Browser can display different omic data in one picture, thus we can easier to figure out the association between different omic data. Detailed instructions can found in https://github.com/Spartanzhao/Annoroad-Browser/.
 
-<p align="center">
-<img src="https://https://github.com/Spartanzhao/Annoroad-Browser/tree/main/result/MIR31HG_2.png>
-</p>
+.\label{fig:fig1}](result/MIR31HG_2.png)
 
 # Acknowledgements
 I want to Acknowledge my colleagues in Annoroad Genomics, Fan Xuning helped me to improve the speed of heatmap drawing, Yuan Zan made my heatmap's color scheme more beautiful than before. I also want appreciate the dedicated people of these python packages which include pandas, matplotlib, numpy, scipy.
