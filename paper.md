@@ -57,7 +57,7 @@ As the shown below, FigureA shows three sample's chromosome interaction heatmap 
 
 
 <p align="left">
-A<img src="./result/MIR31HG_2.png?raw=true" width="300" height="800">B<img src="./result/BxPC3.SV.png?raw=true" width="300" height="800">C<img src="./result/BxPC3.diff_gene.png?raw=true" width="300" height="800">
+<img src="./result/MIR31HG_2.png?raw=true" width="300" height="800"><img src="./result/BxPC3.SV.png?raw=true" width="300" height="800"><img src="./result/BxPC3.diff_gene.png?raw=true" width="300" height="800">
 </p>
 
 # Acknowledgements
