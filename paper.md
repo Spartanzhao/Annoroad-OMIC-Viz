@@ -55,10 +55,8 @@ Annoroad Browser can display different omic data in one picture, thus we can eas
 
 <p align="left">
 <img src="./result/BxPC3.AB.png?raw=true" width="300" height="800">
-</p>
 <p align="center">
 <img src="./result/BxPC3.AB.png?raw=true" width="300" height="800">
-</p>
 <p align="right">
 <img src="./result/BxPC3.AB.png?raw=true" width="300" height="800">
 </p>
