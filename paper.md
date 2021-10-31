@@ -53,6 +53,9 @@ Data that Annoroad Browser can show:
 
 Annoroad Browser can display different omic data in one picture, thus we can easier to figure out the association between different omic data. Detailed instructions can found in https://github.com/Spartanzhao/Annoroad-Browser/.
 
+As the shown below, FigureA shows three sample's chromosome interaction heatmap first, top two are from cancer cell line, We can clearly see deletions compared with normal cell line at the bottom. Below the heatmap, is the 4C display of the MIR31HG. PANC1 has much stronger interaction on the other side of deletion compared with HPDE6C7. H3K27ac 
+
+A                                        B                                    C
 <p align="left">
 <img src="./result/MIR31HG_2.png?raw=true" width="300" height="800">,<img src="./result/BxPC3.SV.png?raw=true" width="300" height="800">,<img src="./result/BxPC3.diff_gene.png?raw=true" width="300" height="800">
 </p>
