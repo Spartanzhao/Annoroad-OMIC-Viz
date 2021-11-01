@@ -4,3 +4,4 @@ show.list2 displayed two samples heatmap and  two samples A/B compartmentand H3K
 show.list3 showed two samples heatmpa and their loops, gene expression and log2 fold change of two samples was displayed below.
 show.list4 displayed two samples heatmap and each samples LRI score and CDB booundary. 
 show.list5 displayed two samples heatmap ,H3K27ac and one sample's specific structrue variation. We can see that deletion the TAD fusion of one sample. the bottom tracks are Delta Hi-C of two samples and gene track 
+You can easily make your own pipeline if you want. pipeline example is in Annoroad-Browser/bin/
