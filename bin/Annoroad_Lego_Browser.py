@@ -1100,18 +1100,3 @@ if __name__=="__main__":
     main()
 
 
-"""
-elif file_list[j][0]=='compartment':
-    ax = fig.add_axes([0.1,1-j/n,0.8,(1/n)*0.9])
-    draw_compartment(ax,file_list[j][1],file_list[j][2],file_list[j][3],x)
-    j+=1
-    x+=diff_dic[zfile_list[zj][0]]
-        
-elif file_list[j][0]=='boundary':
-    ax = fig.add_axes([0.1,1-(j/n+(1/(2*n))),0.8,(1/n)/4])
-    draw_insu(ax,file_list[j][1],file_list[j][2],file_list[j][3],x)
-    j+=1
-    x+=diff_dic[file_list[j][0]]
-        
-"""
-
