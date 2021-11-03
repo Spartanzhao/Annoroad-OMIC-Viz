@@ -31,6 +31,8 @@ The picture in the middle shows the BxPC3 interaction heatmap, below is the stru
 On the right panel, at each sample's heatmap below, are the correspondence loop data. Different samples' TAD structures usually are conserved, however, their loops are highly variable. Below these data, We can see two samples' expression data and its log2 fold change of two samples' gene expression data at the bottom. We can use this kind of joint display to identify the relationship between loop variation and changes in gene expression. 
 
 
+![Examples of Annoroad Browser .\label{fig: Annoroad Browser omic joint display}](result/MIR31HG_2.png)(result/BxPC3.SV.png)(result/BxPC3.diff_gene.png)
+
 <p align="left">
 <img src="./result/MIR31HG_2.png?raw=true" width="300" height="800"><img src="./result/BxPC3.SV.png?raw=true" width="300" height="800"><img src="./result/BxPC3.diff_gene.png?raw=true" width="300" height="800">
 </p>
