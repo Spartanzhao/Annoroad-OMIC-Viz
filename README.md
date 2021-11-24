@@ -94,6 +94,11 @@ python3.6 bin/Annoroad_Lego_Browser.py -fl show.list  -o MLLT3_4C.png -chr chr9 
 
 -b2: right extension, if st is 3000000 ed is 5000000, b1 is 1000000,b2 is 1500000 then we will show the area of from 2000000bp to 6500000bp of this chromosome.
 
+Here are some examples below:
+<p align="left">
+<img src="./result/MIR31HG_2.png?raw=true" width="300" height="800"><img src="./result/BxPC3.SV.png?raw=true" width="300" height="800"><img src="./result/BxPC3.diff_gene.png?raw=true" width="300" height="800">
+</p>
+
 # detail examples
 more detailed example is in test folder of this repository, explanation is in paper.md. You can also make your pipeline, example is in bin folder. 
 
