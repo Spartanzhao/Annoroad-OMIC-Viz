@@ -96,8 +96,13 @@ python3.6 bin/Annoroad_Lego_Browser.py -fl show.list  -o MLLT3_4C.png -chr chr9 
 
 Here are some examples below:
 <p align="left">
-<img src="./result/MIR31HG_2.png?raw=true" width="300" height="800"><img src="./result/BxPC3.SV.png?raw=true" width="300" height="800"><img src="./result/BxPC3.diff_gene.png?raw=true" width="300" height="800">
+<img src="./result/Figure1.png?raw=true" width="300" height="800">>
 </p>
+
+<p align="left">
+<img src="./result/Figure2.png?raw=true" width="300" height="800">>
+</p>
+
 
 # detail examples
 more detailed example is in test folder of this repository, explanation is in paper.md. You can also make your pipeline, example is in bin folder. 
