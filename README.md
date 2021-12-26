@@ -96,11 +96,11 @@ python3.6 bin/Annoroad_Lego_Browser.py -fl show.list  -o MLLT3_4C.png -chr chr9 
 
 Here are some examples below:
 <p align="left">
-<img src="./result/Figure1.png?raw=true" width="1000" height="800">>
+<img src="./result/Figure1.png?raw=true" width="1000" height="600">>
 </p>
 
 <p align="left">
-<img src="./result/Figure2.png?raw=true" width="1000" height="800">>
+<img src="./result/Figure2.png?raw=true" width="1000" height="600">>
 </p>
 
 
