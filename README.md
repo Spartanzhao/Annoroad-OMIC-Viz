@@ -97,7 +97,7 @@ python3.6 bin/Annoroad_Lego_Browser.py -fl show.list  -o MLLT3_4C.png -chr chr9 
 Here are some examples below:
 
 <p align="left">
-<img src="./result/input_raw.png?raw=true" width="400" height="500">,<img src="./result/input_ice.png?raw=true" width="400" height="500">
+<img src="./result/input_raw.png?raw=true" width="500" height="500">,<img src="./result/input_ice.png?raw=true" width="500" height="500">
 </p>
 
 <p align="left">
