@@ -95,6 +95,19 @@ python3.6 bin/Annoroad_Lego_Browser.py -fl show.list  -o MLLT3_4C.png -chr chr9 
 -b2: right extension, if st is 3000000 ed is 5000000, b1 is 1000000,b2 is 1500000 then we will show the area of from 2000000bp to 6500000bp of this chromosome.
 
 Here are some examples below:
+We draw 5 different pictures from A to E, and 5 corresponding input files of the Annoroad Browser need are listed above. In figureA, the top one is the Hi-C interaction heatmap of BxPC3, below are BxPC3 H3K27ac ChIP data and SV data. Compared with HPDE6C7 below, interaction between two sides of deletion was dramatically enhanced and there is a potential enhancer hijiackting for we can see that one enhancer on one side of deletion is strongly interacted with a gene on the other side of deletion. The differential interaction we can identfied though delta Hi-C below the SV data. The bottom is gene track. 
+
+In figureB, from top to bottom are BxPC3 Hi-C interaction heatmap, BxPC3 CDB LRI score, BxPC3 TAD boundary, HPDE6C7 interaction heatmap, HPDE6C7 CDB LRI score,HPDE6C7 contact domain boundary. The  bottom is gene track.
+
+FigureC from top to bottom are BxPC3 Hi-C interaction heatmap, BxPC3 loop, HPDE6C7 Hi-C interaction heatmap, HPDE6C7 loop, BxPC3 gene expression, HPDE6C7 gene expression, Log2FC of BxPC3/HPDE6C7. The  bottom is gene track.
+
+FigureD from top to bottom are BxPC3 Hi-C interaction heatmap, BxPC3 A/B Compartment, BxPC3 H3K27ac ChIP data, HPDE6C7 Hi-C interaction heatmap, HPDE6C7 A/B Compartment, Delta Hi-C of BxPC3-HPDE6C7. The  bottom is gene track.
+
+FigureE from top to bottom are Hi-C interaction heatmaps of BxPC3, PANC1, HPDE6C7, 4C display of three samples in between start and end site.  BxPC3 and PANC1 H3K27ac ChIP data, The  bottom is gene track.
+
+Hi-C heatmap data matrix list and oe matrix list are listed in Annoroad-Browser/data/ folder. The matrix data please check Annoroad-Browser/data/required_data.txt.
+The rest data are in Annoroad-Browser/data/data_test/ folder.
+
 
 <p align="left">
 <img src="./result/input_raw.png?raw=true" width="400" height="400">,<img src="./result/input_ice.png?raw=true" width="400" height="400">
