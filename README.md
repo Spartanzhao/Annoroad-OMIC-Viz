@@ -95,7 +95,7 @@ python3.6 bin/Annoroad_Lego_Browser.py -fl show.list  -o MLLT3_4C.png -chr chr9 
 -b2: right extension, if st is 3000000 ed is 5000000, b1 is 1000000,b2 is 1500000 then we will show the area of from 2000000bp to 6500000bp of this chromosome.
 
 Here are some examples below:
-We draw 5 different pictures from A to E, and 5 corresponding input files of the Annoroad Browser need are listed above. In figureA, the top one is the Hi-C interaction heatmap of BxPC3, below are BxPC3 H3K27ac ChIP data and SV data. Compared with HPDE6C7 below, interaction between two sides of deletion was dramatically enhanced and there is a potential enhancer hijiackting for we can see that one enhancer on one side of deletion is strongly interacted with a gene on the other side of deletion. The differential interaction we can identfied though delta Hi-C below the SV data. The bottom is gene track. 
+We draw 5 different pictures from A to E, and 5 corresponding input files of the Annoroad-OMIC-Viz need are listed above. In figureA, the top one is the Hi-C interaction heatmap of BxPC3, below are BxPC3 H3K27ac ChIP data and SV data. Compared with HPDE6C7 below, interaction between two sides of deletion was dramatically enhanced and there is a potential enhancer hijiackting for we can see that one enhancer on one side of deletion is strongly interacted with a gene on the other side of deletion. The differential interaction we can identfied though delta Hi-C below the SV data. The bottom is gene track. 
 
 In figureB, from top to bottom are BxPC3 Hi-C interaction heatmap, BxPC3 CDB LRI score, BxPC3 TAD boundary, HPDE6C7 interaction heatmap, HPDE6C7 CDB LRI score,HPDE6C7 contact domain boundary. The  bottom is gene track.
 
