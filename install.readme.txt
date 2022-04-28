@@ -11,10 +11,18 @@ iced>=0.5.10
 scipy>=1.4.1
 statsmodels>=0.8.0
 for examples: 
-conda install pandas -y
+conda install pandas=1.0.5 -y
 
 Then, download https://github.com/Spartanzhao/Annoroad-OMIC-Viz/blob/main/Annoraod_OMIC_Viz.zip
 then directly get into the directory of Annoroad_OMIC_Viz:
 for example:
 cd /coursera/Annoraod_OMIC_Viz
 pip install -e /coursera/Annoraod_OMIC_Viz
+
+or you can directly install this package by using : pip install Annoroad_OMIC_vis.
+However, before you us pip install to install my package, please install these packages as I mentioned above by using Anaconda:
+such as 
+conda install numpy=1.17.3 -y 
+If you directly install newest version of these packages, I think it will be okay. If not, just set up a new environment of anaconda 
+and isntall these packages as I mentioned above.
+
