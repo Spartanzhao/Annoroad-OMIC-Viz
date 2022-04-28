@@ -1,0 +1,17 @@
+This package now can be installed: install method:
+useing conda install to instlall dependent packages: python > 3.6
+dependency:
+argparse>=1.1
+re>=2.2.1
+numpy>=1.17.3
+pandas>=1.0.5
+matplotlib>=3.1.1
+seaborn>=0.11.0
+iced>=0.5.10
+scipy>=1.4.1
+statsmodels>=0.8.0
+Then, download https://github.com/Spartanzhao/Annoroad-OMIC-Viz/blob/main/Annoraod_OMIC_Viz.zip
+then directly get into the directory of Annoroad_OMIC_Viz:
+for example:
+cd /coursera/Annoraod_OMIC_Viz
+pip install pip install -e /coursera/Annoraod_OMIC_Viz
