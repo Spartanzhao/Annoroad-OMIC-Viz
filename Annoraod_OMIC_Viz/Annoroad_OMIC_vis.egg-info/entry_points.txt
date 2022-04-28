@@ -1,3 +1,0 @@
-[console_scripts]
-Annoroad_vis = src.Annoroad_OMIC_viz.example.main:main
-

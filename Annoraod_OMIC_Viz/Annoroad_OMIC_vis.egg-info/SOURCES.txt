@@ -1,9 +1,0 @@
-LICENSE.rst
-README.rst
-setup.cfg
-setup.py
-Annoroad_OMIC_vis.egg-info/PKG-INFO
-Annoroad_OMIC_vis.egg-info/SOURCES.txt
-Annoroad_OMIC_vis.egg-info/dependency_links.txt
-Annoroad_OMIC_vis.egg-info/entry_points.txt
-Annoroad_OMIC_vis.egg-info/top_level.txt
