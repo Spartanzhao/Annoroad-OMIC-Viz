@@ -7,6 +7,53 @@ Different types of high throughput sequencing such as Hi-C, ChIP-seq, ATAC-seq, 
 
 Among 3D genomics, there are different kinds of data we can perform such as contact matrix, A/B compartment, delta z score matrix between two samples, insulating score, TAD boundary, loops, 4C display. In addition, we can display different kinds of epigenome and transcriptome data, and calculate difference between two data then show on the track.  We support to show deletion, duplication, inversion and insertion from WGS on the track.  Based on this handy and powerful tool, we can face the challenge in multi-omic data analysis. For example, if we draw a track plot, some place on chromosome has a deletion, then the heat map support there is a TAD fusion, another sample have no such deletion and thus have no TAD fusion. On the track of H3K27ac, we find there is a peak in one side of deletion, and after TAD fusion, H3K27ac peak has a strong interaction with a gene on the other side of deletion which formed enhancer hijacting. But the other sample have on such phenomenon. We can further identify it by using delta zscore heatmap in our tool. The transcriptome data showed gene expression is dramatically enhanced after enhancer hijacting. Thus based on our tool, we can easily find such interesting phenomenon very quickly.
 
+# Installation
+This package now can be installed: install method:
+using anaconda to install dependent packages: python >= 3.6
+dependency:
+argparse>=1.1
+re>=2.2.1
+numpy>=1.17.3
+pandas>=1.0.5
+matplotlib>=3.1.1
+seaborn>=0.11.0
+iced>=0.5.10
+scipy>=1.4.1
+statsmodels>=0.8.0
+for examples: 
+conda install pandas=1.0.5 -y
+
+before you us pip install to install my package, please install these packages as I mentioned above by using Anaconda:
+such as 
+conda install numpy=1.17.3 -y 
+
+Then use command line: pip install Annoroad_OMIC_vis.
+
+After that, you can run: Annoroad_vis -h, If you get :
+usage: Annoroad_vis [-h] -fl FILE_LIST [-u UPPERCENT] [-d DOWNPERCENT] -o
+                    OUTPUT -chr CHROMOSOME -st START -ed END [-t GENETYPE]
+                    [-b1 BOUND1] [-b2 BOUND2]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -fl FILE_LIST, --file_list FILE_LIST
+  -u UPPERCENT, --uppercent UPPERCENT
+                        up_percent : 85
+  -d DOWNPERCENT, --downpercent DOWNPERCENT
+                        down_percent :5
+  -o OUTPUT, --output OUTPUT
+  -chr CHROMOSOME, --chrom CHROMOSOME
+  -st START, --start START
+  -ed END, --end END
+  -t GENETYPE, --genetype GENETYPE
+                        gene type
+  -b1 BOUND1, --bound1 BOUND1
+                        bound1
+  -b2 BOUND2, --bound2 BOUND2
+                        bound2
+                        
+ Then that means you have installed this package. Otherwise, please contact me : zhao_yue000@163.com
+
 Data that Annoroad-OMIC-Viz can show:
 
 1. Contact matrix
